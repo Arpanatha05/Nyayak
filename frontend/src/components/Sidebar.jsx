@@ -111,11 +111,19 @@ const Sidebar = ({ isCollapsed, toggleSidebar, links = CITIZEN_LINKS, roleLabel 
         <div className={`flex items-center gap-3 p-2 rounded-lg transition-colors
           ${isCollapsed ? "justify-center" : ""}
         `}>
+<<<<<<< HEAD
          <div className="w-8 h-8 shrink-0 rounded-full flex items-center justify-center text-xs font-bold
     bg-orange-500 text-white shadow-sm
     dark:bg-slate-700 dark:text-white
 ">
 
+=======
+          <div className="w-8 h-8 shrink-0 rounded-full flex items-center justify-center text-xs font-bold
+            bg-gradient-to-br from-orange-500 to-orange-600 text-white shadow-sm
+
+            dark:from-slate-700 dark:to-slate-600 dark:text-white
+          ">
+>>>>>>> 87c1b7a028e244490380ff09e628964750976d28
             {getUserInitials()}
           </div>
           {!isCollapsed && (
